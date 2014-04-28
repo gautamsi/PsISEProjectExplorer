@@ -45,6 +45,7 @@
 <li>File operations in tree view (context menu - add / rename / delete, drag&drop).</li>
 <li>Find all occurrences of the text under the cursor (SHIFT+F12).</li>
 <li>Locate current file in the tree view (ALT+SHIFT+L).</li>
+<li>Close All But This tab (CTRL+ALT+W).</li>
 <li>Automatic reindex on file system change.</li>
 </ul><p>Requires Powershell 3.0 or above.</p>
 <p>If you find it useful or have any suggestions for improvements feel free to add an <a href="https://github.com/mgr32/PsISEProjectExplorer/issues">issue on Github</a> or comment <a href="#comments">below</a>.</p>
@@ -93,6 +94,7 @@
 <li>Second one for searching the indexes.</li>
 <li>Third one for listening on file system changes (checking for accumulated changes each 100 ms).</li>
 </ul><p>Uses a configuration file PsISEProjectExplorer.config stored next to PsISEProjectExplorer.dll ($env:USERPROFILE\Documents\WindowsPowerShell\Modules\PsISEProjectExplorer). Currently it contains only the last state of the UI.</p>
+<p>To modify keyboard shortcuts, edit PsISEProjectExplorer.psm1 file.</p>
 
 <h5>
 <a name="third-party-libraries" class="anchor" href="#third-party-libraries"><span class="octicon octicon-link"></span></a>Third party libraries</h5>
